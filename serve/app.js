@@ -4,4 +4,4 @@ const serve = require('koa-static')
 
 app.use(serve('./view/'));
 
-app.listen(3000,()=>{console.log('服务启动在3000端口')});
+app.listen(8888,()=>{console.log('服务启动在8888端口')});
